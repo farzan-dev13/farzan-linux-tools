@@ -1,15 +1,26 @@
 # farzan-linux-tools
-A collection of Linux scripts and practical tools used in hosting environments
-## 🛠️ Tools
 
-### 1. `backup.sh`
-A simple Bash script that creates daily backups of `/var/www/html` and stores them in a timestamped directory under `/home/farzan/backups/`.
+A collection of Linux scripts and practical tools used in hosting environments.
 
-#### Features:
-- Automatically creates backup folder based on current date
-- Copies all contents from the web root directory
-- Useful for simple backup automation in shared hosting or testing servers
+---
 
-#### Usage:
-```bash
-bash backup.sh
+## 🛠 Tools
+
+### 🔹 backup.sh
+Simple backup script that copies web content from `/var/www/html` into a dated folder under `/home/farzan/backups/`.
+
+### 🔹 service-monitor.sh
+Bash script to monitor key system services (`nginx`, `mysqld`, `sshd`) and report their status.
+
+---
+
+## 🗃 Notes
+
+### 🔹 datacenter-notes.md
+Experience and notes from working directly with physical servers (e.g. HP ProLiant DL380 Gen9) in datacenter environments — includes iLO access, RAID config, Linux installation, and KVM/IPMI handling.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
