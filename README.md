@@ -24,3 +24,14 @@ Experience and notes from working directly with physical servers (e.g. HP ProLia
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+
+
+---
+
+## 🔧 Featured Tools
+
+### [🔍 DNS Tools – Domain record checker](https://github.com/farzan-dev13/dns-tools)
+
+A simple Bash script to check A, MX, NS, TXT, SPF, and DKIM records for any domain.  
+Includes usage example and real output. Useful for sysadmins, DevOps, and hosting troubleshooting.
